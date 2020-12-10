@@ -1,0 +1,55 @@
+.clase {
+  background-color: aqua;
+}
+
+#img {
+  width: 400px;
+}
+
+li {
+  color: purple;
+}
+
+li:hover {
+    color: royalblue;
+    user-select: none;
+}
+
+b {
+  font-size: 30px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  background-color: rebeccapurple;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.header h1 {
+  margin: 0px;
+}
+
+.card {
+  text-align: justify;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+  background-color: rebeccapurple;
+  color: white;
+}

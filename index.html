@@ -9,69 +9,88 @@
   <body>
     <div class="header">
       <h1>Bienvenido a HTML</h1>
+      <h6>Por Jesús García</h6>
     </div>
-    <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML">
-      <img src="imagen.png" alt="imagen de archivo html" id="img" />
-    </a>
-    <div class="card">
-      <p>
-        <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of
-        <span>Lorem Ipsum.</span>
-      </p>
+    <div class="mygrid">
+      <div class="sidebar">
+        <ol>
+          <li value="58">hola soy el primero</li>
+          <li>hola soy el segundo</li>
+          <li>hola soy el tercero</li>
+        </ol>
+        <ul>
+          <li type="square">hola soy el primero</li>
+          <li>hola soy el segundo</li>
+          <li>hola soy el tercero</li>
+        </ul>
+      </div>
+      <div class="sidebar2">
+        <dl>
+          <dt>hola yo soy el titulo</dt>
+          <dd>hola soy la descripción del titulo anterior</dd>
+          <dt>hola yo soy el titulo</dt>
+          <dd>hola soy la descripción del titulo anterior</dd>
+          <dt>hola yo soy el titulo</dt>
+          <dd>hola soy la descripción del titulo anterior</dd>
+          <dt>hola yo soy el titulo</dt>
+          <dd>hola soy la descripción del titulo anterior</dd>
+        </dl>
+      </div>
+      <div class="contenido">
+        <a
+          target="_blank"
+          href="https://developer.mozilla.org/es/docs/Web/HTML"
+        >
+          <img src="imagen.png" alt="imagen de archivo html" id="img" />
+        </a>
+        <div class="card">
+          <p>
+            <b>Lorem Ipsum</b> is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of
+            <span>Lorem Ipsum.</span>
+          </p>
+        </div>
+      </div>
     </div>
 
-    <ol>
-      <li value="58">hola soy el primero</li>
-      <li>hola soy el segundo</li>
-      <li>hola soy el tercero</li>
-    </ol>
-    <ul>
-      <li type="square">hola soy el primero</li>
-      <li>hola soy el segundo</li>
-      <li>hola soy el tercero</li>
-    </ul>
-    <dl>
-      <dt>hola yo soy el titulo</dt>
-      <dd>hola soy la descripción del titulo anterior</dd>
-      <dt>hola yo soy el titulo</dt>
-      <dd>hola soy la descripción del titulo anterior</dd>
-      <dt>hola yo soy el titulo</dt>
-      <dd>hola soy la descripción del titulo anterior</dd>
-      <dt>hola yo soy el titulo</dt>
-      <dd>hola soy la descripción del titulo anterior</dd>
-    </dl>
     <form
       target="_blank"
       method="GET"
       action="www.example.net/no-existe-esta-página"
+      class="footer"
     >
-      <label for="name">Nombre</label><br />
-      <input
-        required
-        type="text"
-        placeholder="fulanito de tal"
-        name="name"
-        id="name"
-      />
-      <br />
-      <label for="email">Correo Electronico</label><br />
-      <input
-        type="text"
-        name="email"
-        id="email"
-        placeholder="example@gmail.com"
-      /><br />
-      <label for="phone">Telefono</label><br />
-      <input name="phone" type="tel" id="phone" /><br />
-      <input type="submit" title="submit" />
+      <div>
+        <label for="name">Nombre</label>
+        <input
+          required
+          type="text"
+          placeholder="fulanito de tal"
+          name="name"
+          id="name"
+        />
+      </div>
+      <div>
+        <label for="email">Correo Electronico</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="example@gmail.com"
+        />
+      </div>
+      <div>
+        <label for="phone">Telefono</label>
+        <input name="phone" type="tel" id="phone" />
+      </div>
+
+      <input type="submit" />
     </form>
   </body>
 </html>

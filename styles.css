@@ -105,3 +105,16 @@ body {
 .sidebar2 {
   grid-area: sidebar2;
 }
+
+@media (max-width: 875px) {
+  .mygrid {
+    display: grid;
+    grid-template-areas:
+      "contenido"
+      "sidebar"
+      "sidebar2";
+    grid-template-columns: 1fr;
+    justify-content: center;
+    font-size: 12px;
+  }
+}

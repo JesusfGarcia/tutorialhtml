@@ -50,3 +50,55 @@ const cargoPagina = () => {
 const cambiodetamaño = () => {
   console.log("La página cambió de tamaño");
 };
+
+/*class Rectangulo {
+  constructor(ancho, largo) {
+    this.ancho = ancho;
+    this.largo = largo;
+  }
+
+  calArea() {
+    return this.ancho * this.largo;
+  }
+}
+const miRectangulo = new Rectangulo(10, 20);
+console.log(miRectangulo);
+console.log(miRectangulo.calArea());
+
+class Animal {
+  constructor(nombre) {
+    this.nombre = nombre;
+  }
+}
+
+class Perros extends Animal {
+  ladrar() {
+    console.log(this.nombre, " esta ladrando");
+  }
+}
+
+
+const p = new Perros('tobi');
+
+p.ladrar();*/
+
+//getElementsById-Classname
+//createElement, createTextNode
+//appendChild, removeChild
+//childNodes
+//classname
+
+/*let carta = document.getElementById("card");
+
+let parrafo = document.createElement("p");
+let contenido = document.createTextNode("Hola mundo, soy un contenido");
+
+parrafo.appendChild(contenido);
+
+carta.appendChild(parrafo);
+
+carta.removeChild(carta.childNodes[3]);
+console.log(carta.childNodes);
+console.log(carta);
+
+carta.className = 'carta2';*/

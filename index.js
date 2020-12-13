@@ -33,3 +33,20 @@ for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i][j]);
   }
 }*/
+//onblur, onclick, ondblclick, onfocus, onload, onresize
+
+const Click = () => {
+  console.log("Se ha hecho click en la carta");
+};
+const seleccionado = () => {
+  console.log("se esta haciendo focus en este elemento");
+};
+const no_seleccionado = () => {
+  console.log("se ha pasado a otro elemento");
+};
+const cargoPagina = () => {
+  console.log("La página terminó de cargar");
+};
+const cambiodetamaño = () => {
+  console.log("La página cambió de tamaño");
+};
